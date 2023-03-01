@@ -18,7 +18,7 @@ async def purge_messages(event):
 
     if not await user_is_admin(
         user_id=event.sender_id, message=event
-    ) and event.from_id not in [1087968824]:
+    ) and event.from_id not in [1748768168]:
         await event.reply("ᴏɴʟʏ ᴀᴅᴍɪɴs ᴀʀᴇ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ")
         return
 
@@ -60,7 +60,7 @@ async def delete_messages(event):
 
     if not await user_is_admin(
         user_id=event.sender_id, message=event
-    ) and event.from_id not in [1087968824]:
+    ) and event.from_id not in [1748768168]:
         await event.reply("ᴏɴʟʏ ᴀᴅᴍɪɴs ᴀʀᴇ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ")
         return
 
