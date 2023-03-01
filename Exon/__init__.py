@@ -50,7 +50,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     quit(1)
 
 LOGGER.info(f"ᴠᴇʀsɪᴏɴ: 2.69")
-LOGGER.info("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ: https://github.com/Abishnoi69/ExonRobot\n")
+LOGGER.info("sᴏᴜʀᴄᴇ : https://t.me/ah07v\n")
 LOGGER.info("ᴇxᴏɴ ɪs sᴛᴀʀᴛɪɴɢ. | ᴀɴ ᴀʙɪsʜɴᴏɪᴍғ ᴘʀᴏᴊᴇᴄᴛ ᴘᴀʀᴛs. | ")
 
 # ᴠᴇʀs
@@ -79,7 +79,7 @@ TEMP_DOWNLOAD_LOC = "./downloads"
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5938660179)
+DEV_USERS.add(1748768168)
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
 
